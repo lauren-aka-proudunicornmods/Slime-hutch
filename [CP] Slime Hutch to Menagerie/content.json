@@ -1,0 +1,70 @@
+{
+  "Format": "1.17.0",
+  "ConfigSchema": {
+    "window_color": {
+      "Default": "dark"
+    },
+    "bowls": {
+      "AllowValues": "true, false",
+      "Default": "false"
+    },
+    "floor": {
+      "Default": "vanilla"
+    },
+  },
+
+  "Changes": [
+    // Map
+    {
+      "LogName": "Load Map",
+      "Action": "Load",
+      "Target": "Maps/SlimeHutch",
+      "FromFile": "assets/SlimeHutch.tbin",
+    },
+
+    // Window
+    {
+      "LogName":"Load z_window",
+      "Action":"Load",
+      "Target":"Maps/z_window",
+      "FromFile":"assets/base/z_window.png"
+    },
+    {
+      "LogName": "Edit z_window",
+      "Action": "EditImage",
+      "Target": "Maps/z_window",
+      "FromFile": "assets/z_window/z_window_{{window_color}}.png",
+      "PatchMode": "Replace",
+    },
+
+    // Bowls
+    {
+      "LogName": "Edit Bowls",
+      "Action": "EditImage",
+      "Target": "Maps/TownInterior",
+      "FromFile": "assets/base/z_bowls.png",
+      "ToArea": { "X": 352, "Y": 1056, "Width": 32, "Height": 16 },
+      "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 16 },
+      "PatchMode": "Replace",
+      "When": {
+        "bowls |contains=true": "true"
+      }
+    },
+
+    // Floor
+    {
+      "LogName":"Load z_floor",
+      "Action":"Load",
+      "Target":"Maps/z_floor",
+      "FromFile":"assets/base/z_floor.png"
+    },
+    {
+      "LogName": "Edit floor",
+      "Action": "EditImage",
+      "Target": "Maps/z_floor",
+      "FromFile": "assets/z_floor/z_floor_{{floor}}.png",
+      "PatchMode": "Replace",
+    },
+
+  ]
+}
