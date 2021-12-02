@@ -1,18 +1,12 @@
 {
   "Name": "Slime Hutch to Menagerie",
-  "Author": "pl611",
-  "Version": "1.2.0",
+  "Author": "proudunicorn",
+  "Version": "2.0.0",
   "Description": "A garden-ish redesign of the slime hutch interior with a spa and space for a for a few crops!",
-  "UniqueID": "pl611.slimehutchtomenagerieCP",
+  "UniqueID": "proudunicorn.slimehutchtomenagerieCP",
   "MinimumApiVersion": "2.0",
   "UpdateKeys": ["Nexus:1303"],
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher"
-  },
-  "Dependencies": [
-    {
-      "UniqueID": "pl611.proudunicornstilesCP",
-      "IsRequired": true
-    },
-  ]
+  }
 }

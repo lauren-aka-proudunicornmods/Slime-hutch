@@ -1,0 +1,117 @@
+{
+  "Format": "1.17.0",
+  //please don't change the config! It is just here for future updates.
+  "ConfigSchema": {
+    "assetpath": {
+      "Default": "insert asset path here"
+    }
+  },
+  "DynamicTokens": [
+      {
+         "Name": "outside_indoors",
+         "Value": "Spring",
+         "When": {
+            "Season": "Spring"
+         }
+      },
+      {
+         "Name": "outside_indoors",
+         "Value": "Summer",
+         "When": {
+            "Season": "Summer"
+         }
+      },
+      {
+         "Name": "outside_indoors",
+         "Value": "Fall",
+         "When": {
+            "Season": "Fall"
+         }
+      },
+      {
+         "Name": "outside_indoors",
+         "Value": "Winter",
+         "When": {
+            "Season": "Winter"
+         }
+      },
+      {
+         "Name": "recolor",
+         "Value": "vanilla",
+         "When": {
+            "HasMod |contains=DaisyNiko.EarthyRecolour": "false",
+            "HasMod |contains=stardewfoliageredone": "false",
+            "HasMod |contains=Lita.StarblueValley": "false",
+            "HasMod |contains=grapeponta.VibrantPastoralRecolor": "false",
+         }
+      },
+      {
+         "Name": "recolor",
+         "Value": "earthy",
+         "When": {
+            "HasMod |contains=DaisyNiko.EarthyRecolour": "true",
+         }
+      },
+      {
+         "Name": "recolor",
+         "Value": "redone",
+         "When": {
+            "HasMod |contains=stardewfoliageredone": "true",
+         }
+      },
+      {
+         "Name": "recolor",
+         "Value": "starblue",
+         "When": {
+            "HasMod |contains=Lita.StarblueValley": "true",
+         }
+      },
+      {
+         "Name": "recolor",
+         "Value": "pastoral",
+         "When": {
+            "HasMod |contains=grapeponta.VibrantPastoralRecolor": "true",
+         }
+      },
+   ],
+
+  "Changes": [
+
+    //z_outdoors_indoors - tilesheet for seasonal outdoor stuff in indoor maps
+    {
+      "LogName":"Load z_outdoors_indoors",
+      "Action":"Load",
+      "Target":"Maps/z_outside_indoors",
+      "FromFile":"assets/base/z_outside_indoors.png"
+    },
+    {
+      "LogName":"Edit z_outside_indoors",
+      "Action":"EditImage",
+      "Target":"Maps/z_outside_indoors",
+      "FromFile": "{{assetpath}}/{{outside_indoors}}_outdoorsTileSheet.png",
+      "PatchMode": "Replace"
+    },
+
+    //Z_foreverspring - tilesheet for using elements from the spring outdoors map in any season
+    {
+      "LogName":"Load z_foreverspring",
+      "Action":"Load",
+      "Target":"Maps/z_foreverspring",
+      "FromFile":"assets/base/z_foreverspring.png"
+    },
+    {
+      "LogName":"Edit z_foreverspring",
+      "Action":"EditImage",
+      "Target":"Maps/z_foreverspring",
+      "FromFile": "{{assetpath}}/spring_outdoorsTileSheet.png",
+      "PatchMode": "Replace"
+    },
+    //z_enhancedtiles_unicornedit - my edit of the farmhouses enhanced tilesheet with a few more water tiles
+    {
+      "LogName":"Load z_enhancedtiles_unicornedit",
+      "Action":"Load",
+      "Target":"Maps/z_enhancedtiles_unicornedit",
+      "FromFile":"assets/base/z_enhancedtiles_unicornedit.png"
+    }
+    ]
+}

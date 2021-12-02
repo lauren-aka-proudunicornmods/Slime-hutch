@@ -1,0 +1,12 @@
+{
+   "Name": "[CP] ProudUnicorn's Tiles Rearranged]",
+   "Author": "pl611",
+   "Version": "1.0.3",
+   "Description": "A reorganization of some tilesheets for use in my mods. See the Nexus page for permissions",
+   "UniqueID": "pl611.proudunicornstilesCP",
+   "MinimumApiVersion": "2.0",
+   "UpdateKeys": ["Nexus:6751"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}
