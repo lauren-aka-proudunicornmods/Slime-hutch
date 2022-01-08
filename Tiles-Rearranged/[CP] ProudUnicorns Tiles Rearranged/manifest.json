@@ -1,9 +1,9 @@
 {
-   "Name": "[CP] ProudUnicorn's Tiles Rearranged]",
-   "Author": "pl611",
+   "Name": "[CP] Proudunicorn's Tiles Rearranged",
+   "Author": "proudunicorn",
    "Version": "2.0.0",
-   "Description": "A reorganization of some tilesheets for use in my mods. See the Nexus page for permissions",
-   "UniqueID": "pl611.proudunicornstilesCP",
+   "Description": "Adds two new types of tilesheet: SeasonsIndoors and ForeverSpring.",
+   "UniqueID": "proudunicorn.tilesrearranged",
    "UpdateKeys": ["Nexus:6751"],
    "ContentPackFor": {
       "UniqueID": "Pathoschild.ContentPatcher"

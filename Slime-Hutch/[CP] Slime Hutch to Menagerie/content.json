@@ -1,5 +1,6 @@
 {
-  "Format": "1.17.0",
+  "$schema": "https://smapi.io/schemas/content-patcher.json",
+  "Format": "1.24.0",
   "ConfigSchema": {
     "size": {
     "AllowValues": "large, small",
@@ -16,7 +17,6 @@
       "Default": "vanilla"
     }
   },
-  ]
   "Changes": [
     {
       "LogName": "Slimehutch",
