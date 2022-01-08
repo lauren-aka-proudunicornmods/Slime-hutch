@@ -3,7 +3,7 @@
   "Format": "1.24.0",
   "ConfigSchema": {
     "size": {
-    "AllowValues": "large, small",
+      "AllowValues": "large, small",
       "Default": "large"
     },
     "windows": {
@@ -18,6 +18,12 @@
     }
   },
   "Changes": [
+    {
+      "LogName": "Load z_enhancedtiles_unicornedit",
+      "Action": "Load",
+      "Target": "Maps/z_enhancedtiles_unicornedit",
+      "FromFile": "assets/z_enhancedtiles_unicornedit.png"
+    }
     {
       "LogName": "Slimehutch",
       "Action": "Load",

@@ -75,13 +75,6 @@
          "When": {
             "ManualRecolourEnabled": true
          }
-      },
-      //z_enhancedtiles_unicornedit - my edit of the farmhouses enhanced tilesheet with a few more water tiles
-      {
-         "LogName": "Load z_enhancedtiles_unicornedit",
-         "Action": "Load",
-         "Target": "Maps/z_enhancedtiles_unicornedit",
-         "FromFile": "assets/z_enhancedtiles_unicornedit.png"
       }
    ]
 }
