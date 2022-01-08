@@ -1,6 +1,6 @@
 # Changelogs
 
-[Full Readme](https://github.com/lauren-mods/StardewMods/blob/main/Slime-Hutch/readme.md)
+[Main Page](https://github.com/lauren-mods/StardewMods/tree/main/Slime-Hutch)
 
 ## 2.0
 - complete overhaul
