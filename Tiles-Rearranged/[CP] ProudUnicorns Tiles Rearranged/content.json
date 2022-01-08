@@ -16,7 +16,7 @@
          "LogName": "Load z_seasonsindoors",
          "Action": "Load",
          "Target": "Maps/z_seasonsindoors",
-         "FromFile": "Maps/{{season}}_outdoorsTileSheet.png"
+         "FromFile": "assets/{{season}}_outdoorsTileSheet.png"
       },
       {
          "LogName": "Edit z_seasonsindoors",
@@ -33,7 +33,7 @@
                "LogName": "Load z_seasonsindoors2",
                "Action": "Load",
                "Target": "Maps/z_seasonsindoors2",
-               "FromFile": "Maps/{{season}}_outdoorsTileSheet2.png"
+               "FromFile": "assets/{{season}}_outdoorsTileSheet2.png"
             },
             {
                "LogName": "Edit z_seasonsindoors2",
@@ -50,13 +50,13 @@
          "LogName": "Load z_foreverspring",
          "Action": "Load",
          "Target": "Maps/z_foreverspring",
-         "FromFile": "Maps/spring_outdoorsTileSheet.png"
+         "FromFile": "assets/spring_outdoorsTileSheet.png"
       },
       {
          "LogName": "Edit z_foreverspring",
          "Action": "EditImage",
          "Target": "Maps/z_foreverspring",
-         "FromFile": "{{assetpath}}/assets/spring_outdoorsTileSheet.png",
+         "FromFile": "{{RecolorPath}}/assets/spring_outdoorsTileSheet.png",
          "PatchMode": "Replace",
          "When": {
             "RecolorEnabled": true
@@ -67,13 +67,13 @@
          "LogName": "Load z_foreverspring2",
          "Action": "Load",
          "Target": "Maps/z_foreverspring2",
-         "FromFile": "Maps/spring_outdoorsTileSheet2.png"
+         "FromFile": "assets/spring_outdoorsTileSheet2.png"
       },
       {
          "LogName": "Edit z_foreverspring2",
          "Action": "EditImage",
          "Target": "Maps/z_foreverspring2",
-         "FromFile": "{{assetpath}}/assets/spring_outdoorsTileSheet2.png",
+         "FromFile": "{{RecolorPath}}/assets/spring_outdoorsTileSheet2.png",
          "PatchMode": "Replace",
          "When": {
             "RecolorEnabled": true
