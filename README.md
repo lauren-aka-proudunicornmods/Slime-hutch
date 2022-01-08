@@ -7,5 +7,5 @@ This is a repository for my Stardew Valley Mods.
 
 Currently merging the two mods and will be adding a new alternate version without spa soon.
 ## To do
-- test new code
-- create a new and smaller map
+
+See [Issues](https://github.com/lauren-mods/StardewMods/issues)
