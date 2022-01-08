@@ -1,9 +1,11 @@
 {
   "Format": "1.17.0",
   "ConfigSchema": {
-        "assetpath": {
-        },
-    "window_color": {
+    "size": {
+    "AllowValues": "large, small",
+      "Default": "large"
+    },
+    "windows": {
       "Default": "dark"
     },
     "bowls": {
@@ -14,64 +16,25 @@
       "Default": "vanilla"
     }
   },
-  "DynamicTokens": [
-    {
-      "Name": "outside_indoors",
-      "Value": "Spring",
-      "When": {
-        "Season": "Spring"
-      }
-    },
-    {
-      "Name": "outside_indoors",
-      "Value": "Summer",
-      "When": {
-        "Season": "Summer"
-      }
-    },
-    {
-      "Name": "outside_indoors",
-      "Value": "Fall",
-      "When": {
-        "Season": "Fall"
-      }
-    },
-    {
-      "Name": "outside_indoors",
-      "Value": "Winter",
-      "When": {
-        "Season": "Winter"
-      }
-    }
   ]
   "Changes": [
-    // Map
     {
-      "LogName": "Load Map",
+      "LogName": "Slimehutch",
       "Action": "Load",
       "Target": "Maps/SlimeHutch",
-      "FromFile": "assets/SlimeHutch.tbin"
+      "FromFile": "assets/SlimeHutch{{size}}.tbin"
     },
-    // Window
     {
-      "LogName": "Load z_window",
+      "LogName": "Windows",
       "Action": "Load",
       "Target": "Maps/z_window",
-      "FromFile": "assets/base/z_window.png"
+      "FromFile": "assets/z_window_{{windows}}.png",
     },
     {
-      "LogName": "Edit z_window",
-      "Action": "EditImage",
-      "Target": "Maps/z_window",
-      "FromFile": "assets/z_window/z_window_{{window_color}}.png",
-      "PatchMode": "Replace"
-    },
-    // Bowls
-    {
-      "LogName": "Edit Bowls",
+      "LogName": "Bowls",
       "Action": "EditImage",
       "Target": "Maps/TownInterior",
-      "FromFile": "assets/base/z_bowls.png",
+      "FromFile": "assets/z_bowls.png",
       "ToArea": {
         "X": 352,
         "Y": 1056,
@@ -89,21 +52,11 @@
         "bowls |contains=true": "true"
       }
     },
-    // Floor
     {
-      "LogName": "Load z_floor",
+      "LogName": "Floor",
       "Action": "Load",
       "Target": "Maps/z_floor",
-      "FromFile": "assets/base/z_floor.png"
-    },
-    {
-      "LogName": "Edit floor",
-      "Action": "EditImage",
-      "Target": "Maps/z_floor",
-      "FromFile": "assets/z_floor/z_floor_{{floor}}.png",
-      "PatchMode": "Replace"
-    },
-    //tilesheet adjustments
-
+      "FromFile": "assets/z_floor_{{floor}}.png",
+    }
   ]
 }
