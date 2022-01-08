@@ -1,117 +1,90 @@
 {
-  "Format": "1.17.0",
-  //please don't change the config! It is just here for future updates.
-  "ConfigSchema": {
-    "assetpath": {
-      "Default": "insert asset path here"
-    }
-  },
-  "DynamicTokens": [
+   "$schema": "https://smapi.io/schemas/content-patcher.json",
+   "Format": "1.24.0",
+   "ConfigSchema": {
+      "RecolorEnabled": {
+         "AllowValues": "True, false",
+         "Default": "false"
+      },
+      "RecolorPath": {
+         "Default": "D:/GOG Galaxy/Stardew Valley/Mods/[CP] Tilesheets Rearranged/"
+      }
+   },
+   "Changes": [
+      //z_seasonsindoors: (season)_outdoorsTileSheet for use inside
       {
-         "Name": "outside_indoors",
-         "Value": "Spring",
-         "When": {
-            "Season": "Spring"
-         }
+         "LogName": "Load z_seasonsindoors",
+         "Action": "Load",
+         "Target": "Maps/z_seasonsindoors",
+         "FromFile": "Maps/{{season}}_outdoorsTileSheet.png"
       },
       {
-         "Name": "outside_indoors",
-         "Value": "Summer",
+         "LogName": "Edit z_seasonsindoors",
+         "Action": "EditImage",
+         "Target": "Maps/z_seasonsindoors",
+         "FromFile": "{{RecolorPath}}/assets/{{season}}_outdoorsTileSheet.png",
+         "PatchMode": "Replace",
          "When": {
-            "Season": "Summer"
+            "RecolorEnabled": true
          }
+      },
+      //z_seasonsindoors2
+            {
+               "LogName": "Load z_seasonsindoors2",
+               "Action": "Load",
+               "Target": "Maps/z_seasonsindoors2",
+               "FromFile": "Maps/{{season}}_outdoorsTileSheet2.png"
+            },
+            {
+               "LogName": "Edit z_seasonsindoors2",
+               "Action": "EditImage",
+               "Target": "Maps/z_seasonsindoors2",
+               "FromFile": "{{RecolorPath}}/assets/{{season}}_outdoorsTileSheet2.png",
+               "PatchMode": "Replace",
+               "When": {
+                  "RecolorEnabled": true
+               }
+            },
+      //Z_foreverspring - tilesheet for using elements from the spring outdoors map in any season
+      {
+         "LogName": "Load z_foreverspring",
+         "Action": "Load",
+         "Target": "Maps/z_foreverspring",
+         "FromFile": "Maps/spring_outdoorsTileSheet.png"
       },
       {
-         "Name": "outside_indoors",
-         "Value": "Fall",
+         "LogName": "Edit z_foreverspring",
+         "Action": "EditImage",
+         "Target": "Maps/z_foreverspring",
+         "FromFile": "{{assetpath}}/assets/spring_outdoorsTileSheet.png",
+         "PatchMode": "Replace",
          "When": {
-            "Season": "Fall"
+            "RecolorEnabled": true
          }
+      },
+      //Z_foreverspring2 - tilesheet for using elements from the spring outdoors map in any season
+      {
+         "LogName": "Load z_foreverspring2",
+         "Action": "Load",
+         "Target": "Maps/z_foreverspring2",
+         "FromFile": "Maps/spring_outdoorsTileSheet2.png"
       },
       {
-         "Name": "outside_indoors",
-         "Value": "Winter",
+         "LogName": "Edit z_foreverspring2",
+         "Action": "EditImage",
+         "Target": "Maps/z_foreverspring2",
+         "FromFile": "{{assetpath}}/assets/spring_outdoorsTileSheet2.png",
+         "PatchMode": "Replace",
          "When": {
-            "Season": "Winter"
+            "RecolorEnabled": true
          }
       },
+      //z_enhancedtiles_unicornedit - my edit of the farmhouses enhanced tilesheet with a few more water tiles
       {
-         "Name": "recolor",
-         "Value": "vanilla",
-         "When": {
-            "HasMod |contains=DaisyNiko.EarthyRecolour": "false",
-            "HasMod |contains=stardewfoliageredone": "false",
-            "HasMod |contains=Lita.StarblueValley": "false",
-            "HasMod |contains=grapeponta.VibrantPastoralRecolor": "false",
-         }
-      },
-      {
-         "Name": "recolor",
-         "Value": "earthy",
-         "When": {
-            "HasMod |contains=DaisyNiko.EarthyRecolour": "true",
-         }
-      },
-      {
-         "Name": "recolor",
-         "Value": "redone",
-         "When": {
-            "HasMod |contains=stardewfoliageredone": "true",
-         }
-      },
-      {
-         "Name": "recolor",
-         "Value": "starblue",
-         "When": {
-            "HasMod |contains=Lita.StarblueValley": "true",
-         }
-      },
-      {
-         "Name": "recolor",
-         "Value": "pastoral",
-         "When": {
-            "HasMod |contains=grapeponta.VibrantPastoralRecolor": "true",
-         }
-      },
-   ],
-
-  "Changes": [
-
-    //z_outdoors_indoors - tilesheet for seasonal outdoor stuff in indoor maps
-    {
-      "LogName":"Load z_outdoors_indoors",
-      "Action":"Load",
-      "Target":"Maps/z_outside_indoors",
-      "FromFile":"assets/base/z_outside_indoors.png"
-    },
-    {
-      "LogName":"Edit z_outside_indoors",
-      "Action":"EditImage",
-      "Target":"Maps/z_outside_indoors",
-      "FromFile": "{{assetpath}}/{{outside_indoors}}_outdoorsTileSheet.png",
-      "PatchMode": "Replace"
-    },
-
-    //Z_foreverspring - tilesheet for using elements from the spring outdoors map in any season
-    {
-      "LogName":"Load z_foreverspring",
-      "Action":"Load",
-      "Target":"Maps/z_foreverspring",
-      "FromFile":"assets/base/z_foreverspring.png"
-    },
-    {
-      "LogName":"Edit z_foreverspring",
-      "Action":"EditImage",
-      "Target":"Maps/z_foreverspring",
-      "FromFile": "{{assetpath}}/spring_outdoorsTileSheet.png",
-      "PatchMode": "Replace"
-    },
-    //z_enhancedtiles_unicornedit - my edit of the farmhouses enhanced tilesheet with a few more water tiles
-    {
-      "LogName":"Load z_enhancedtiles_unicornedit",
-      "Action":"Load",
-      "Target":"Maps/z_enhancedtiles_unicornedit",
-      "FromFile":"assets/base/z_enhancedtiles_unicornedit.png"
-    }
-    ]
+         "LogName": "Load z_enhancedtiles_unicornedit",
+         "Action": "Load",
+         "Target": "Maps/z_enhancedtiles_unicornedit",
+         "FromFile": "assets/z_enhancedtiles_unicornedit.png"
+      }
+   ]
 }
