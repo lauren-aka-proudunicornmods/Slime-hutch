@@ -11,6 +11,8 @@
 
 ## Configuration
 
+(Floor Config currently not working for unknown reasons. See [changelog](https://github.com/lauren-mods/StardewMods/blob/main/Slime-Hutch/changelogs.md)
+
 ### bowls
 Do you want to use my bowls?
 
