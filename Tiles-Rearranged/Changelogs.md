@@ -1,6 +1,6 @@
 # Changelogs
 
-## v2.0-alpha
+## 2.0 Overhaul
 
-Reorganised and renamed some files. Also removed the bathroom tiles because the permissions are different. Will include those in mods individually.
-
+- Reorganised and renamed some files
+- Removed the bathroom tiles because the permissions are different

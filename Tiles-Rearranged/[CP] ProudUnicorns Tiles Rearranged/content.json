@@ -13,7 +13,7 @@
          "LogName": "Load z_seasonsindoors",
          "Action": "Load",
          "Target": "Maps/z_seasonsindoors",
-         "FromFile": "assets/{{season}}_outdoorsTileSheet.png"
+         "FromFile": "assets/original/{{season}}_outdoorsTileSheet.png"
       },
       {
          "LogName": "Edit z_seasonsindoors",
@@ -30,7 +30,7 @@
          "LogName": "Load z_seasonsindoors2",
          "Action": "Load",
          "Target": "Maps/z_seasonsindoors2",
-         "FromFile": "assets/{{season}}_outdoorsTileSheet2.png"
+         "FromFile": "assets/original/{{season}}_outdoorsTileSheet2.png"
       },
       {
          "LogName": "Edit z_seasonsindoors2",
@@ -47,7 +47,7 @@
          "LogName": "Load z_foreverspring",
          "Action": "Load",
          "Target": "Maps/z_foreverspring",
-         "FromFile": "assets/spring_outdoorsTileSheet.png"
+         "FromFile": "assets/original/spring_outdoorsTileSheet.png"
       },
       {
          "LogName": "Edit z_foreverspring",
@@ -64,7 +64,7 @@
          "LogName": "Load z_foreverspring2",
          "Action": "Load",
          "Target": "Maps/z_foreverspring2",
-         "FromFile": "assets/spring_outdoorsTileSheet2.png"
+         "FromFile": "assets/original/spring_outdoorsTileSheet2.png"
       },
       {
          "LogName": "Edit z_foreverspring2",

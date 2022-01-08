@@ -6,36 +6,53 @@
       "AllowValues": "large, small",
       "Default": "large"
     },
-    "windows": {
-      "AllowValues": "vanilla",
-      "Default": "vanilla, dark, light"
+    "windowstyle": {
+      "AllowValues": "default, dark, light",
+      "Default": "default"
     },
     "bowls": {
       "AllowValues": "true, false",
       "Default": "false"
     },
-    "floor": {
-      "Default": "vanilla"
+    "floorstyle": {
+      "AllowValues": "default, alt, rustic, grey",
+      "Default": "default"
     }
   },
   "Changes": [
+    //load tilesheets
     {
-      "LogName": "Load z_enhancedtiles_unicornedit",
+      "LogName": "Load Enhanced Tiles",
       "Action": "Load",
       "Target": "Maps/z_enhancedtiles_unicornedit",
       "FromFile": "assets/z_enhancedtiles_unicornedit.png"
     },
     {
-      "LogName": "Slimehutch",
-      "Action": "Load",
-      "Target": "Maps/SlimeHutch",
-      "FromFile": "assets/SlimeHutch{{size}}.tbin"
-    },
-    {
-      "LogName": "Windows",
+      "LogName": "Load Windows",
       "Action": "Load",
       "Target": "Maps/z_window",
-      "FromFile": "assets/z_window_{{windows}}.png",
+      "FromFile": "assets/z_window.png"
+    },
+    {
+      "LogName": "Load Floors",
+      "Action": "Load",
+      "Target": "Maps/z_floor",
+      "FromFile": "assets/z_floor.png"
+    },
+    //EditImage
+    {
+      "LogName": "Edit Windows",
+      "Action": "EditImage",
+      "Target": "Maps/z_window",
+      "FromFile": "assets/windows/{{windowstyle}}.png",
+      "PatchMode": "Replace",
+    },
+    {
+      "LogName": "Edit Floors",
+      "Action": "EditImage",
+      "Target": "Maps/z_floor",
+      "FromFile": "assets/floors/{{floorstyle}}.png",
+      "PatchMode": "Replace",
     },
     {
       "LogName": "Bowls",
@@ -59,11 +76,12 @@
         "bowls |contains=true": "true"
       }
     },
+    //load map
     {
-      "LogName": "Floor",
+      "LogName": "Load Slimehutch",
       "Action": "Load",
-      "Target": "Maps/z_floor",
-      "FromFile": "assets/z_floor_{{floor}}.png",
-    }
+      "Target": "Maps/SlimeHutch",
+      "FromFile": "assets/{{size}}SlimeHutch.tbin"
+    },
   ]
 }
