@@ -1,4 +1,6 @@
-Contents
+# Readme
+
+## Contents
 1. Config Options
 2. Installation
 3. Installation (changing from 1.0.2)
@@ -8,9 +10,7 @@ Contents
 
 "bowls": //this is if you want to use my bowls
 "Default": "false"
-"Options":
-"true"
-"false"
+"Options": "true" "false"
 
 "floor":
 "Default": "vanilla"
