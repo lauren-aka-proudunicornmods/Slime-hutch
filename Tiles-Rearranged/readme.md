@@ -3,9 +3,9 @@
 ## Contents
 
 1. [Installation](#Installation)
-2. [Using Recolour Mods](#Using Recolour Mods)
-3. [For Mod Authors: Making Automatic Recolor Possible](#For Mod Authors)
-4. [For Mod Authors: What it Does](#what it does)
+2. [Using Recolour Mods](#UsingRecolourMods)
+3. [For Mod Authors: Making Automatic Recolor Possible](#ForModAuthors)
+4. [For Mod Authors: What it Does](#whatitdoes)
 5. [Permissions](#permissions)
 
 ## Installation
@@ -14,7 +14,7 @@ Drag `[CP] Proudunicorns Tiles Rearranged` into your mods folder.
 
 ## Using Recolor Mods
 
-Tiles rearranged can't target files in a recolor mod, so to use recolors with this mod, we have to use a [manual workaround](#manual workaround) or the recolor mod author can [patch their mod.](#For Mod Authors)
+Tiles rearranged can't target files in a recolor mod, so to use recolors with this mod, we have to use a [manual workaround](#manualworkaround) or the recolor mod author can [patch their mod.](#ForModAuthors)
 
 ### Manual Workaround
 You will need to add in the files manually to the manual-recolour folder.
