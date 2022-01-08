@@ -2,13 +2,10 @@
    "$schema": "https://smapi.io/schemas/content-patcher.json",
    "Format": "1.24.0",
    "ConfigSchema": {
-      "RecolorEnabled": {
+      "ManualRecolourEnabled": {
          "AllowValues": "True, false",
          "Default": "false"
       },
-      "RecolorPath": {
-         "Default": "D:/GOG Galaxy/Stardew Valley/Mods/[CP] Tilesheets Rearranged/"
-      }
    },
    "Changes": [
       //z_seasonsindoors: (season)_outdoorsTileSheet for use inside
@@ -22,29 +19,29 @@
          "LogName": "Edit z_seasonsindoors",
          "Action": "EditImage",
          "Target": "Maps/z_seasonsindoors",
-         "FromFile": "{{RecolorPath}}/assets/{{season}}_outdoorsTileSheet.png",
+         "FromFile": "assets/manual-recolour/{{season}}_outdoorsTileSheet.png",
          "PatchMode": "Replace",
          "When": {
-            "RecolorEnabled": true
+            "ManualRecolourEnabled": true
          }
       },
       //z_seasonsindoors2
-            {
-               "LogName": "Load z_seasonsindoors2",
-               "Action": "Load",
-               "Target": "Maps/z_seasonsindoors2",
-               "FromFile": "assets/{{season}}_outdoorsTileSheet2.png"
-            },
-            {
-               "LogName": "Edit z_seasonsindoors2",
-               "Action": "EditImage",
-               "Target": "Maps/z_seasonsindoors2",
-               "FromFile": "{{RecolorPath}}/assets/{{season}}_outdoorsTileSheet2.png",
-               "PatchMode": "Replace",
-               "When": {
-                  "RecolorEnabled": true
-               }
-            },
+      {
+         "LogName": "Load z_seasonsindoors2",
+         "Action": "Load",
+         "Target": "Maps/z_seasonsindoors2",
+         "FromFile": "assets/{{season}}_outdoorsTileSheet2.png"
+      },
+      {
+         "LogName": "Edit z_seasonsindoors2",
+         "Action": "EditImage",
+         "Target": "Maps/z_seasonsindoors2",
+         "FromFile": "assets/manual-recolour/{{season}}_outdoorsTileSheet2.png",
+         "PatchMode": "Replace",
+         "When": {
+            "ManualRecolourEnabled": true
+         }
+      },
       //Z_foreverspring - tilesheet for using elements from the spring outdoors map in any season
       {
          "LogName": "Load z_foreverspring",
@@ -56,10 +53,10 @@
          "LogName": "Edit z_foreverspring",
          "Action": "EditImage",
          "Target": "Maps/z_foreverspring",
-         "FromFile": "{{RecolorPath}}/assets/spring_outdoorsTileSheet.png",
+         "FromFile": "assets/manual-recolour/spring_outdoorsTileSheet.png",
          "PatchMode": "Replace",
          "When": {
-            "RecolorEnabled": true
+            "ManualRecolourEnabled": true
          }
       },
       //Z_foreverspring2 - tilesheet for using elements from the spring outdoors map in any season
@@ -73,10 +70,10 @@
          "LogName": "Edit z_foreverspring2",
          "Action": "EditImage",
          "Target": "Maps/z_foreverspring2",
-         "FromFile": "{{RecolorPath}}/assets/spring_outdoorsTileSheet2.png",
+         "FromFile": "assets/manual-recolour/spring_outdoorsTileSheet2.png",
          "PatchMode": "Replace",
          "When": {
-            "RecolorEnabled": true
+            "ManualRecolourEnabled": true
          }
       },
       //z_enhancedtiles_unicornedit - my edit of the farmhouses enhanced tilesheet with a few more water tiles
