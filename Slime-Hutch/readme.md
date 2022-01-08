@@ -1,6 +1,7 @@
 # Readme
 
 [Changelogs](https://github.com/lauren-mods/StardewMods/blob/main/Slime-Hutch/changelogs.md)
+
 [Nexus Page](https://www.nexusmods.com/stardewvalley/mods/6497)
 
 ## Contents
