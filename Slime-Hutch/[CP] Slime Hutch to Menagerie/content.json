@@ -24,7 +24,7 @@
       "Action": "Load",
       "Target": "Maps/z_enhancedtiles_unicornedit",
       "FromFile": "assets/z_enhancedtiles_unicornedit.png"
-    }
+    },
     {
       "LogName": "Slimehutch",
       "Action": "Load",
