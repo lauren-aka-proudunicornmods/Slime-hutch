@@ -37,12 +37,18 @@ Which floor tiles do you want?
 
 - "alt"
 Alternative tiles from rustic town interior.
+![img](https://github.com/lauren-mods/StardewMods/blob/main/Slime-Hutch/%5BCP%5D%20Slime%20Hutch%20to%20Menagerie/assets/floors/alt.png)
+
 - "grey"
 Grey tiles from bathhouse hotspring mod's assets.
+![img](https://github.com/lauren-mods/StardewMods/blob/main/Slime-Hutch/%5BCP%5D%20Slime%20Hutch%20to%20Menagerie/assets/floors/grey.png)
+
 - "rustic"
 Original rustic town interior off-white greenhouse tiles.
+![img](https://github.com/lauren-mods/StardewMods/blob/main/Slime-Hutch/%5BCP%5D%20Slime%20Hutch%20to%20Menagerie/assets/floors/rustic.png)
 - "vanilla"
 The terracotta color in base game.
+![img](https://github.com/lauren-mods/StardewMods/blob/main/Slime-Hutch/%5BCP%5D%20Slime%20Hutch%20to%20Menagerie/assets/z_floor.png)
 
 Default = "Vanilla"
 
