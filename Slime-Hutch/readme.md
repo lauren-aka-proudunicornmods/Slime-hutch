@@ -4,6 +4,8 @@
 
 [Nexus Page](https://www.nexusmods.com/stardewvalley/mods/6497)
 
+[To Do](https://github.com/lauren-mods/StardewMods/projects/1)
+
 ## Contents
 
 1. [Configuration](#Configuration)
