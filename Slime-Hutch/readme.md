@@ -21,6 +21,7 @@ The original mod is 'large', the new is 'small'. I might add a medium soon also.
 
 - "small"
 - "large"
+
 Default = large
 
 ### bowls
