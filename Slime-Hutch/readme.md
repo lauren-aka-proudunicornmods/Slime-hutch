@@ -16,6 +16,13 @@
 
 (Floor and Window Configuration currently not working for unknown reasons. See [changelog](https://github.com/lauren-mods/StardewMods/blob/main/Slime-Hutch/changelogs.md))
 
+### size
+The original mod is 'large', the new is 'small'. I might add a medium soon also.
+
+- "small"
+- "large"
+Default = large
+
 ### bowls
 Do you want to use my bowls?
 
@@ -53,7 +60,7 @@ Copy ```[CP] Slime Hutch to menagerie```into your mods folder.
 
 It is based on my favourite greenhouse mod [Wren's Expanded Greenhouse](https://www.nexusmods.com/stardewvalley/mods/5431), and uses their assets for the window frames.
 
-Also uses an asset from Farmhouses Enhanced by [wildzooey](url=https://www.nexusmods.com/stardewvalley/users/52416251).
+Also uses an asset from Farmhouses Enhanced by [wildzooey](https://www.nexusmods.com/stardewvalley/users/52416251).
 
-The water troughs are included but can also be found [here](url=https://www.nexusmods.com/stardewvalley/mods/6453).
+The water troughs are included but can also be found [here](https://www.nexusmods.com/stardewvalley/mods/6453).
 
