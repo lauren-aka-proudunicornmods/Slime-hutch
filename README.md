@@ -8,4 +8,4 @@ This is a repository for my Stardew Valley Mods.
 Currently merging the two mods and will be adding a new alternate version without spa soon.
 ## To do
 
-See [Issues](https://github.com/lauren-mods/StardewMods/issues)
+See [Project](https://github.com/lauren-mods/StardewMods/projects/1)
