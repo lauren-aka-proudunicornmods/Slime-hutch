@@ -20,7 +20,10 @@
 The original mod is 'large', the new is 'small'. I might add a medium soon also.
 
 - "small"
+![img](https://github.com/lauren-mods/StardewMods/blob/main/Slime-Hutch/smallSlimeHutch.png)
+
 - "large"
+![img](https://github.com/lauren-mods/StardewMods/blob/main/Slime-Hutch/largeSlimeHutch.png)
 
 Default = large
 
