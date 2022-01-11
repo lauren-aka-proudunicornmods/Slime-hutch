@@ -2,25 +2,28 @@
   "$schema": "https://smapi.io/schemas/content-patcher.json",
   "Format": "1.24.0",
   "ConfigSchema": {
-    "size": {
+    "Size": {
       "AllowValues": "large, small",
-      "Default": "large"
+      "Default": "large",
+      "Description": "Choose between large and small buildings."
     },
-    "windowstyle": {
-      "AllowValues": "default, dark, light",
-      "Default": "default"
+    "Windows": {
+      "AllowValues": "vanilla, dark, light",
+      "Default": "vanilla",
+      "Description": "The colour of the window frames - vanilla, dark, or light."
     },
-    "bowls": {
+    "Bowls": {
       "AllowValues": "true, false",
-      "Default": "false"
+      "Default": "false",
+      "Description":"Enable my water bowls."
     },
-    "floorstyle": {
-      "AllowValues": "default, alt, rustic, grey",
-      "Default": "default"
+    "Floor": {
+      "AllowValues": "vanilla, alt, rustic, grey",
+      "Default": "vanilla"
+      "Description":"The colour of the floor - vanilla, alt, rustic, or grey."
     }
   },
   "Changes": [
-    //load tilesheets
     {
       "LogName": "Load Enhanced Tiles",
       "Action": "Load",
@@ -31,28 +34,13 @@
       "LogName": "Load Windows",
       "Action": "Load",
       "Target": "Maps/z_window",
-      "FromFile": "assets/z_window.png"
+      "FromFile": "assets/z_window-{{windows}}.png"
     },
     {
       "LogName": "Load Floors",
       "Action": "Load",
       "Target": "Maps/z_floor",
-      "FromFile": "assets/z_floor.png"
-    },
-    //EditImage
-    {
-      "LogName": "Edit Windows",
-      "Action": "EditImage",
-      "Target": "Maps/z_window",
-      "FromFile": "assets/windows/{{windowstyle}}.png",
-      "PatchMode": "Replace",
-    },
-    {
-      "LogName": "Edit Floors",
-      "Action": "EditImage",
-      "Target": "Maps/z_floor",
-      "FromFile": "assets/floors/{{floorstyle}}.png",
-      "PatchMode": "Replace",
+      "FromFile": "assets/z_floor-{{floor}}.png"
     },
     {
       "LogName": "Bowls",
@@ -76,7 +64,6 @@
         "bowls |contains=true": "true"
       }
     },
-    //load map
     {
       "LogName": "Load Slimehutch",
       "Action": "Load",
