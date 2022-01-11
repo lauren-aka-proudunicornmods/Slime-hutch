@@ -10,7 +10,7 @@ Currently merging the two mods and will be adding a new alternate version withou
 
 See [Project](https://github.com/lauren-mods/StardewMods/projects/1)
 
-## Links
+## Bookmarks
 
 https://github.com/Pathoschild/StardewMods/blob/develop/ContentPatcher/docs/author-tokens-guide.md
 
