@@ -9,3 +9,8 @@ Currently merging the two mods and will be adding a new alternate version withou
 ## To do
 
 See [Project](https://github.com/lauren-mods/StardewMods/projects/1)
+
+## Links
+
+https://github.com/Pathoschild/StardewMods/blob/develop/ContentPatcher/docs/author-tokens-guide.md
+
