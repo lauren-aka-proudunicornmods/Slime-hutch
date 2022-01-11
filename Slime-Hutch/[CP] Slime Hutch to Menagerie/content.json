@@ -15,12 +15,12 @@
     "Bowls": {
       "AllowValues": "true, false",
       "Default": "false",
-      "Description":"Enable my water bowls."
+      "Description": "Enable my water bowls."
     },
     "Floor": {
       "AllowValues": "vanilla, alt, rustic, grey",
       "Default": "vanilla",
-      "Description":"The colour of the floor - vanilla, alt, rustic, or grey."
+      "Description": "The colour of the floor - vanilla, alt, rustic, or grey."
     }
   },
   "Changes": [
@@ -34,7 +34,7 @@
       "LogName": "Load Windows",
       "Action": "Load",
       "Target": "Maps/z_window",
-      "FromFile": "assets/z_window-{{windows}}.png"
+      "FromFile": "assets/z_window-{{windows}}.png",
     },
     {
       "LogName": "Load Floors",
