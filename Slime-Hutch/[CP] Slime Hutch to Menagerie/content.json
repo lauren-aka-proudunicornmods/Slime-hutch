@@ -19,7 +19,7 @@
     },
     "Floor": {
       "AllowValues": "vanilla, alt, rustic, grey",
-      "Default": "vanilla"
+      "Default": "vanilla",
       "Description":"The colour of the floor - vanilla, alt, rustic, or grey."
     }
   },
