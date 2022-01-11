@@ -2,7 +2,7 @@
   "$schema": "https://smapi.io/schemas/manifest.json",
   "Name": "Slime Hutch to Menagerie",
   "Author": "proudunicorn",
-  "Version": "2.0.0",
+  "Version": "2.0.1",
   "Description": "A garden-ish redesign of the slime hutch interior with a spa and space for a for a few crops!",
   "UniqueID": "proudunicorn.slimehutchtomenagerie",
   "UpdateKeys": ["Nexus: 6497"],
