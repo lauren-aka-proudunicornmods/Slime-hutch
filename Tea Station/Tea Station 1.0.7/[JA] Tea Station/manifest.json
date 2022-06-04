@@ -1,0 +1,18 @@
+﻿{
+	"Name": "[JA] Tea Station",
+	"Author": "pl611",
+	"Version": "1.0.7",
+	"Description": "Brews tea and Iced Tea",
+	"UniqueID": "pl611.TeaStationJA",
+	"MinimumApiVersion": "3.0.1",
+	"UpdateKeys": ["Nexus:6313"],
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.JsonAssets"
+	},
+	"Dependencies": [
+		{
+			 "UniqueID": "Hadi.FrozenTreatsJA",
+			 "IsRequired": false
+		}
+		]
+}
