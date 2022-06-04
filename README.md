@@ -10,7 +10,7 @@ Feel free to use any of my code in your own projects, BUT please **don't use ass
 
 ## To do
 
-See the issues page.
+See the issues page here: https://github.com/lauren-mods/StardewMods/issues
 
 ## Bookmarks
 
