@@ -1,0 +1,12 @@
+{
+	"Name": "[PFM] Ancient Seed Germinator",
+	"Author": "pl611",
+	"Version": "1.0.1",
+	"Description": "Hmmm what might this do?",
+	"UniqueID": "pl611.AncientSeedGerminatorPFM",
+	"MinimumApiVersion": "3.0.1",
+	"UpdateKeys": ["Nexus:6495"],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

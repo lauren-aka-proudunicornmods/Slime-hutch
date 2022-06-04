@@ -1,0 +1,13 @@
+{
+  "Format": "1.0",
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Maps/TownInterior",
+      "FromFile": "assets/bowls.png",
+      "ToArea": { "X": 352, "Y": 1056, "Width": 32, "Height": 16 },
+      "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 16 },
+      "Patchmode": "Replace"
+    }
+	]
+}

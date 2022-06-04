@@ -1,0 +1,40 @@
+[
+	{
+		"Id": "getstarted.getsprinklers",
+		"Text": "@,^I was clearing out some old stock when I found these.^Our supplier no longer sells them, but perhaps one day you will find some way of making more...^Pierre",
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Name": "Quality Sprinkler",
+				"Stack": 24
+			},
+		],
+    "Repeatable": false,
+		"Date": "4 spring Y1",
+		"FriendshipConditions": [
+			{
+				"NpcName": "Pierre",
+				"FriendshipLevel": 1
+			}
+		],
+	},
+	{
+		"Id": "getstarted.getseedmakerrenamed",
+		"Text": "@,^I thought you might find this useful...^Caroline",
+		"Repeatable": false,
+		"Date": "4 spring Y1",
+		"Attachments": [
+			{
+				"Type": "BigCraftable",
+				"Name": "Seed Maker",
+				"Stack": 1
+			},
+		],
+		"FriendshipConditions": [
+			{
+				"NpcName": "Caroline",
+				"FriendshipLevel": 1
+			}
+		],
+	}
+]

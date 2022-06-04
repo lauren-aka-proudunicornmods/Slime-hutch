@@ -1,0 +1,27 @@
+{
+   "Name": "Pet Water Bowls",
+   "Author": "pl611",
+   "Version": "1.0.0",
+   "Description": "Replaces the pet bowls",
+   "UniqueID": "pl611.petwaterbowls",
+   "MinimumApiVersion": "2.0",
+   "UpdateKeys": ["Nexus:6625"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+   "Dependencies": [
+     {
+       "UniqueID": "flashshifter.immersivefarm2remastered",
+       "IsRequired": false
+     },
+     {
+       "UniqueID": "stardewfoliageredone",
+       "IsRequired": false
+     },
+     {
+       "UniqueID": "stardewfoliageredonereshade",
+       "IsRequired": false
+     },
+
+   ]
+}

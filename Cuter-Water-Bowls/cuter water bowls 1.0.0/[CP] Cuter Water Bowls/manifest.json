@@ -1,0 +1,12 @@
+{
+   "Name": "Cuter Water Bowls For Slime Hutch",
+   "Author": "pl611",
+   "Version": "1.0.0",
+   "Description": "Replaces the slime hutch water troughs",
+   "UniqueID": "pl611.cuterbowls",
+   "MinimumApiVersion": "2.0",
+   "UpdateKeys": ["Nexus:6453"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

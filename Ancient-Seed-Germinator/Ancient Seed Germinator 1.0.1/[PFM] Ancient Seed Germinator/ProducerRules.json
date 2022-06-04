@@ -1,0 +1,41 @@
+[
+	{
+		"ProducerName": "Ancient Seed Germinator",
+		"MinutesUntilReady": 60,
+		"SubtractTimeOfDay": false,
+		"InputIdentifier": "-79", //fruit
+		"FuelIdentifier": "114",
+				"FuelStack": 1,
+		"OutputIdentifier": "499",
+		"Probability": 0.8,
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"KeepInputQuality": true,
+		"SilverQualityInput": {
+			"Probability": 0.8,
+			"OutputIdentifier": "499",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},
+		"GoldQualityInput": {
+			"Probability": 0.8,
+			"OutputIdentifier": "499",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},
+		"IridiumQualityInput": {
+			"Probability": 0.8,
+			"OutputIdentifier": "499",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.2,
+				"OutputIdentifier": "770",
+				"OutputMaxStack": 8,
+			},
+		],
+		"Sounds": ["Ship", "bubbles"],
+	},
+]

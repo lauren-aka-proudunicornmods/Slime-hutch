@@ -1,0 +1,12 @@
+﻿{
+	"Name": "[MFM] Get Started",
+	"Author": "pl611",
+	"Version": "1.0.2",
+	"Description": "Receive some quality sprinklers and a seedmaker in the mail",
+	"UniqueID": "pl611.getstarted",
+	"MinimumApiVersion": "2.11.3",
+	"UpdateKeys": ["Nexus:6420"],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod"
+	}
+}

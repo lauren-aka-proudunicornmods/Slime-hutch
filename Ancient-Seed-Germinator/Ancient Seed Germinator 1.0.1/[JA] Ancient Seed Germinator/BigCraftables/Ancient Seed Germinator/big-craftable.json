@@ -1,0 +1,34 @@
+{
+  "Name": "Ancient Seed Germinator",
+  "Price": 1,
+  "Description": "Hmmm what might this do?",
+  "ProvidesLight": true,
+  "Recipe":
+  {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 114,
+        "Count": 5,
+      },
+      {
+        "Object": 499,
+        "Count": 1,
+      },
+      {
+        "Object": 709,
+        "Count": 10,
+      },
+      {
+        "Object": 74,
+        "Count": 1,
+      },
+    ],
+      "CanPurchase": true,
+      "PurchaseFrom": "Robin",
+      "PurchasePrice": 3000,
+      "PurchaseRequirements": [
+        "y 2/s 499 5/"
+      ],
+  },
+}
