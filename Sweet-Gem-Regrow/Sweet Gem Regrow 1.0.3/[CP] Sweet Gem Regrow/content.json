@@ -1,5 +1,6 @@
 {
-  "Format": "1.15.0",
+  "$schema": "https://smapi.io/schemas/content-patcher.json",
+  "Format": "1.26.0",
   "ConfigSchema": {
     "Regrow_Days": {
       "Default": "21"
@@ -8,7 +9,7 @@
   "Changes": [
     {
       "Action": "EditData",
-      "Target": "Data/Crops",//Regrowth Period
+      "Target": "Data/Crops", //Regrowth Period
       "Fields": {
         "347": { //Rare Seed
           4: "{{Regrow_Days}}"
@@ -19,7 +20,12 @@
       "Action": "EditImage",
       "Target": "TileSheets/crops",
       "FromFile": "assets/sweetgem_regrow.png",
-      "ToArea": { "X": 112, "Y": 512, "Width": 16, "Height": 32 },
+      "ToArea": {
+        "X": 112,
+        "Y": 512,
+        "Width": 16,
+        "Height": 32
+      },
       "When": {
         "HasMod | contains=cometkins.BetterCropsAndForaging": false
       }
@@ -28,7 +34,12 @@
       "Action": "EditImage",
       "Target": "TileSheets/crops",
       "FromFile": "assets/sweetgem_regrow_bac.png",
-      "ToArea": { "X": 112, "Y": 512, "Width": 16, "Height": 32 },
+      "ToArea": {
+        "X": 112,
+        "Y": 512,
+        "Width": 16,
+        "Height": 32
+      },
       "When": {
         "HasMod | contains=cometkins.BetterCropsAndForaging": true
       }

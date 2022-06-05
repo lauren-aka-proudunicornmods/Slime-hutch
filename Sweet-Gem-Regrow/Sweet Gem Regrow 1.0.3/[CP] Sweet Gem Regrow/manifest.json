@@ -2,10 +2,9 @@
     "$schema": "https://smapi.io/schemas/manifest.json",
     "Name": "Sweet Gem Regrow",
     "Author": "pl611",
-    "Version": "1.0.2",
+    "Version": "1.0.3",
     "Description": "Sweet Gem crops (Rare Seeds) will regrow",
     "UniqueID": "pl611.SweetGemRegrow",
-    "MinimumApiVersion": "3.0.0",
     "UpdateKeys": [
         "Nexus: 6561"
     ],
