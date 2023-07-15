@@ -1706,13 +1706,13 @@
  </tileset>
  <layer id="1" name="Back" width="6" height="2">
   <data encoding="csv">
-212,212,212,212,212,624,
-212,212,212,212,212,624
+348,388,388,388,368,624,
+412,212,212,315,414,624
 </data>
  </layer>
  <layer id="2" name="Buildings" width="6" height="2">
   <data encoding="csv">
-387,205,53,0,0,456,
+348,205,53,0,0,456,
 0,313,314,0,0,481
 </data>
  </layer>
