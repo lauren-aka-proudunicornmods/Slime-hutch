@@ -1,6 +1,16 @@
 {
     "Format": "1.29.3",
     "Changes": [
-        
+                {
+                    "Action": "EditMap",
+                    "Target": "Maps/Farm_FourCorners",
+                    "FromFile": "assets/Four-corners-visual-fix.tmx",
+                    "ToArea": {
+                        "X": 40,
+                        "Y": 23,
+                        "Width": 3,
+                        "Height": 2
+                    }
+                }
     ]
 }
