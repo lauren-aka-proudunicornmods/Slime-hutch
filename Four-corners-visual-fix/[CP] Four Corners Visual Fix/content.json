@@ -6,9 +6,9 @@
                     "Target": "Maps/Farm_FourCorners",
                     "FromFile": "assets/Four-corners-visual-fix.tmx",
                     "ToArea": {
-                        "X": 40,
+                        "X": 37,
                         "Y": 23,
-                        "Width": 3,
+                        "Width": 6,
                         "Height": 2
                     }
                 }
