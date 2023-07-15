@@ -1,7 +1,7 @@
 {
    "Name": "Four Corners Visual Fix",
    "Author": "proudunicorn",
-   "Version": "1.0.0",
+   "Version": "1.0.1",
    "Description": "Fixes the visual glitch with the bush in the middle of the four corners farm",
    "UniqueID": "proudunicorn.fourcornersvisualfix",
    "MinimumApiVersion": "3.0.0",
