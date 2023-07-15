@@ -1,0 +1,10 @@
+{
+    "Format": "1.28.0",
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Maps/FarmHouse",
+            "FromFile": "assets/FarmHouseLauren.tmx"
+        }
+    ]
+}
