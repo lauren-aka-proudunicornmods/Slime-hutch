@@ -5,6 +5,7 @@
    "Description": "Fixes the visual glitch with the bush in the middle of the four corners farm",
    "UniqueID": "proudunicorn.fourcornersvisualfix",
    "MinimumApiVersion": "3.0.0",
+   "UpdateKeys": ["Nexus:17416"],
     "ContentPackFor": {
       "UniqueID": "Pathoschild.ContentPatcher",
       "MinimumVersion": "1.29.3" 
