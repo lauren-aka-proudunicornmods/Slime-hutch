@@ -1,11 +1,11 @@
 {
-   "Name": "Forest Farm No Ponds",
+   "Name": "Forest Farm No Central Ponds",
    "Author": "proudunicorn",
    "Version": "1.0.1",
    "Description": "Removes the large and small southern ponds from the forest farm",
-   "UniqueID": "proudunicorn.forestfarmnoponds",
+   "UniqueID": "proudunicorn.forestfarmnocentralponds",
    "MinimumApiVersion": "3.0.0",
-   "UpdateKeys": [],
+   "UpdateKeys": ["Nexus:19667"],
     "ContentPackFor": {
       "UniqueID": "Pathoschild.ContentPatcher",
       "MinimumVersion": "1.30.4" 
