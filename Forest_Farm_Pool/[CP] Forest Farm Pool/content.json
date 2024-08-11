@@ -1,0 +1,16 @@
+{
+    "Format": "1.30.4",
+    "Changes": [
+                {
+                    "Action": "EditMap",
+                    "Target": "Maps/Farm_Foraging",
+                    "FromFile": "assets/Farm_Foraging_Pool.tmx",
+                    "ToArea": {
+                        "X": 60,
+                        "Y": 42,
+                        "Width": 12,
+                        "Height": 10
+                    }
+                }
+    ]
+}

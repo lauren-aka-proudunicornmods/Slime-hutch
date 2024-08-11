@@ -1,0 +1,13 @@
+{
+   "Name": "Wilderness Farm No Central Ponds",
+   "Author": "proudunicorn",
+   "Version": "1.0.1",
+   "Description": "Removes the central pond from the wilderness farm and the small patch of grass under where the greenhouse is.",
+   "UniqueID": "proudunicorn.wildernessfarmnocentralponds",
+   "MinimumApiVersion": "3.0.0",
+   "UpdateKeys": ["Nexus:19785"],
+    "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.30.4" 
+   }
+}

@@ -1,0 +1,58 @@
+{
+    "Format": "1.30.4",
+    "ConfigSchema": {
+        "Changes": [
+            {
+                "Action": "EditImage",
+                "Target": "TerrainFeatures/Flooring",
+                "FromFile": "assets/Flooring_lightcrystal.png",
+                "FromArea": {
+                    "X": 192,
+                    "Y": 64,
+                    "Width": 64,
+                    "Height": 64
+                },
+                "ToArea": {
+                    "X": 192,
+                    "Y": 64,
+                    "Width": 64,
+                    "Height": 64
+                },
+            },
+            {
+                "Action": "EditImage",
+                "Target": "TerrainFeatures/Flooring_winter",
+                "FromFile": "assets/Flooring_winter_lightcrystal.png",
+                "FromArea": {
+                    "X": 192,
+                    "Y": 64,
+                    "Width": 64,
+                    "Height": 64
+                },
+                "ToArea": {
+                    "X": 192,
+                    "Y": 64,
+                    "Width": 64,
+                    "Height": 64
+                }
+            },
+            {
+                "Action": "EditImage",
+                "Target": "Maps/springobjects",
+                "FromFile": "assets/Flooring_lightcrystal.png",
+                "FromArea": {
+                    "X": 192,
+                    "Y": 64,
+                    "Width": 16,
+                    "Height": 16
+                },
+                "ToArea": {
+                    "X": 16,
+                    "Y": 272,
+                    "Width": 16,
+                    "Height": 16
+                }
+            }
+        ]
+    }
+}

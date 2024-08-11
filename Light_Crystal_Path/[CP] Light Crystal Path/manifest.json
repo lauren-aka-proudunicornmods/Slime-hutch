@@ -1,0 +1,13 @@
+{
+   "Name": "Light Crystal Path",
+   "Author": "proudunicorn",
+   "Version": "1.0.1",
+   "Description": "Replaces the Crystal Path and Winter Crystal Path with a lighter version",
+   "UniqueID": "proudunicorn.lightcrystalpath",
+   "MinimumApiVersion": "3.0.0",
+   "UpdateKeys": [],
+    "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.30.4" 
+   }
+}

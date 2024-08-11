@@ -1,0 +1,19 @@
+{
+   "Name": "Forest Farm Pool",
+   "Author": "proudunicorn",
+   "Version": "1.0.1",
+   "Description": "Enables Swimming in Forest Farm SE Pond",
+   "UniqueID": "proudunicorn.forestfarmpool",
+   "MinimumApiVersion": "3.0.0",
+   "UpdateKeys": [],
+    "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.29.3" 
+   },
+   "Dependencies":[
+      {
+         "UniqueID": "proudunicorn.forestfarmnocentralpools",
+         "IsRequired": false
+      }
+   ]
+}
